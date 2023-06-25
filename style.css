@@ -1,0 +1,72 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: Green;
+}
+p.BigApples {
+    font-size: 150%;
+    font-weight: bold;
+    color:yellow
+    text-align: center;
+    font-family: 'Hubballi', cursive;
+    font-family: 'Krona One', sans-serif;
+    text-align:center;
+    border-style:solid;
+    border-width: thin medium thick 10px;
+    border-color:black;
+    padding-left:50px;
+}
+.center{
+  display: block;
+  margin-left: 10%;
+  margin-right: auto;
+  width: 50%;
+  border-style:solid;
+  border-width: thin medium thick 10px;
+  border-color:yellow;
+
+}
+h2 {
+color: yellow;
+  text-decoration: underline;
+  text-decoration-color: black;
+  animation:myAnimation 3s;
+
+}
+body{
+animation:myAnimation 5s ;
+animation-direction: normal;
+}
+@keyframes myAnimation{
+from{
+background:red;
+}
+to{
+background:blue;
+}
+}
+
+div {
+ width: 10rem;
+    height: 10rem;
+    margin: 3rem auto;
+    animation: myAnimation 5s;
+    }
+
+    @keyframes myAnimation {
+    from {
+    transform: scale(0.5);
+    background: red;
+    }
+    to {
+      transform: scale(1);
+      background: blue;
+      }
+      0%{
+      transform:translateX(-100px);
+      }
+     }
+
+
